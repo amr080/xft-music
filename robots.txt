@@ -1,0 +1,13 @@
+//robots.txt
+
+# Block all crawlers for /account
+User-agent: *
+Disallow: /account
+
+# Block all crawlers for /health
+User-agent: *
+Disallow: /health
+
+# Allow all crawlers
+User-agent: *
+Allow: /
